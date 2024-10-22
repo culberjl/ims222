@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Scripts -->
+<script>
+  $(document).ready(function(){
+    $("#p1").mouseenter(function(){
+      alert("Welcome to our Bakery");
+    });
+  });
+  </script>
+<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").toggle();
+      });
+    });
+    </script>
+  <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#p1").css("color", "pink").slideUp(2000).slideDown(2000);
+      });
+    });
+    </script>
+    
+</head>
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delicious Bakery</title>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Delicious Bakery</h1>
+    
+    <div class="navbar">
+        <a href="index.html">Bakery Home</a>
+        <a href="recipes.html">Recipe Cards</a>
+        <a href="celebrity.html">Celebrity Favorites</a>
+        <a href="materialize.html">Materialize</a>
+        <a href="jquery.html">Jquery</a>
+        <a href="bootstrap.html">Bootstrap</a>
+        <a href="dashboard.html">Dashboard</a>
+    </div>
+
+</header>
+<body>
+<!-- Corresponding HTML/CSS to run the scripts-customize text, change color.  -->
+<p id="p1">Some JQuery for the Bakery</p>
+        <section style="background-color: #ccc3ee;">
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+</section>
+<hr>
+<section style="background-color: #f1a1e8;">
+<button>Toggle between hiding and showing the paragraphs</button>
+
+<p>This is a paragraph with little content.</p>
+<p>This is another small paragraph.</p>
+</section>
+<hr>
+<section style="background-color: #79f299;">
+<p id="p1">Enter to Win!</p>
+
+<button>Click me</button>
+
+
+</section>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<header>
+  <h1>Welcome to Delicious Bakery</h1>
+  
+  <div class="navbar">
+          <a href="index.html">Bakery Home</a>
+          <a href="recipes.html">Recipe Cards</a>
+          <a href="celebrity.html">Celebrity Favorites</a>
+          <a href="materialize.html">Materialize</a>
+          <a href="jquery.html">Jquery</a>
+          <a href="bootstrap.html">Bootstrap</a>
+          <a href="dashboard.html">Dashboard</a>
+      </div>
+
+</header>
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>A day in the life here at the bakery.</h1>
+  <p>We work hard to bring delicious happiness to you.</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Fun Fact #1</h3>
+      <p>The first chocolate chip cookie was invented by accident by Ruth Wakefield in the 1930s when she added broken chocolate pieces into her cookie dough.</p>
+      
+    </div>
+    <div class="col-sm-4">
+      <h3>Fun Fact #2</h3>
+      <p> The term "cupcake" comes from the practice of baking them in small pottery cups before muffin tins were widely available.</p>
+   
+    </div>
+    <div class="col-sm-4">
+        <h3>Fun Fact #3</h3>
+        <p>Bagels are boiled before they are baked, which gives them their distinctive chewy texture. This process sets them apart from other breads.</p>
+      </div>
+    </div>
+</div>
+</div>
+<div class="border border-primary border-2">
+<div class="container mt-3">
+    <h3>Behind the Scenes</h3>        
+    <p>We are hard at work behind the scenes in our bakery. </p>
+    <p>Our day starts early to get all of our delicious bakery items ready for our favorite people-our customers.</p>
+    <h2>Take a look at some scenes from our typical day.</h2>
+    <p>Behind the scense of our bakery, preparation for the morning rush and the loyal customers begins long before dawn. 
+        Bakers start by carefully measuring and mixing ingredients, ensuring each batch of dough is perfectly balaned. 
+        they monitor ovens closely, timing each bake to perfection for a variety of pastries, bread, and desserts.
+        Attention to detail is crucial as they decorate and finish items, making sure everyting looks as good as it tastes.
+        The team works efficinetly, organizing displays and managing inventory to keep shelves stocked and inviting. Their dedication
+        ensures that every customer receives fresh, high-quality baked goods each morning.</p>
+      </p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Select this button to view and hide the images.</button>
+    <div id="demo" class="collapse">
+    
+    </div>
+   
+  <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/kitchen1.jpg" alt="kitchen scene" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="images/kitchen 2.jpg" alt="kitchen scene" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="images/kitchen3.jpg" alt="kitchen scene" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  <div class="container mt-3">
+    <h2>Enter your name and email to win a gift card from our bakery, we pull names monthly.</h2>
+
+    <form action="/action_page.php">
+      <div class="form-floating mb-3 mt-3">
+        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+        <label for="email">Email</label>
+      </div>
+      <div class="form-floating mt-3 mb-3">
+        <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+        <label for="pwd">Password</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class="container mt-3">
+    
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+      <h1>Fall is Here!</h1> 
+      <p>It's Pumpkin Spice time. We will feature pumpkin cookies, bread, and pumpkin roll. This Fall, we are actually going to 
+        offer our own custom brewed pumpkin spice tea. </p>
+        <img src="images/pumpkinspice.png" alt="Fall" height="50%" width="50%">
+      
+    </div>
+  </div>
+  
+
+</body>
+</html>
